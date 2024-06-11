@@ -1,0 +1,124 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 360;
+    background-color: #ede6ff;
+}
+
+.menu-header {
+    color: rgb(73, 8, 80);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .menu-section {
+    font-weight: bold;
+    align-items: center;
+    border: none; */
+/* } */
+
+.nav-menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu ul li {
+    list-style: none;
+    padding: 50px 0 0 5px;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    background-color: rgb(209, 179, 236);
+    padding: 5px;
+    border-radius: 5px;
+    color: rgb(252, 252, 252);
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-menu ul li a:hover {
+    background-color: #e985e9;
+}
+
+.menu-section label{
+    font-weight: bold;
+}
+
+.menu-section input{
+    background-color: rgb(222, 202, 226);
+    width: 12vw;
+    text-align: center;
+}
+
+.btn-card{
+    padding: 10px;
+    background-color: #b99cff;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 60%;
+    margin-top: 15px;
+    outline: none;
+    border: none;
+}
+
+.btn-card:hover{
+    background-color: #9060ff;
+    border: 2px solid #e462e4;
+    transition: all 0.3s ease-in-out;
+}
+
+.tabela-cadastro{
+   border-radius: 10px; 
+   background-color:  rgb(199, 150, 245);
+   height: 300px;
+   width: 300px;
+   margin: 0 auto;
+}
+
+.tabela-cadastro form{
+   display: flex;
+   flex-direction:column;
+   justify-content: center;
+   align-items: center;
+}
+
+.tabela-cadastro form > input{
+  width: 60%;
+  padding: 7px;
+  outline: none;
+  border: none;
+  background-color: #513d80;
+}
+
+.tabela-cadastro form > label{
+    margin: 10px 0;
+}
+
+.btn-card {
+    color: rgb(0, 0, 0);
+    background-color: #5811fd;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+
+}
+
+.titulo1 {
+    color: rgb(45, 3, 51);
+
+}
+
+.titulo2 {
+    color: rgb(45, 3, 51);
+
+}
